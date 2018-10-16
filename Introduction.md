@@ -51,6 +51,7 @@ User Defined Functions in SQL Server is a programming construct that accepts par
 * Users and roles
 * GRANT/REVOKE on main operations
 * Database owner concept
+
 **Windows Trusted Authentication**
 * Single-sign on for end-users
 * Integration with Windows domain/Active Directory security
