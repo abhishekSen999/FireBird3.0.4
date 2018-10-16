@@ -2,9 +2,20 @@
 > Firebird is an open source SQL relational database management system that "runs on **Linux, Microsoft Windows, MacOSX, and several Unix platforms.**"
 
 ## Features
-Some main features of firebird are listed below:
-### Full support for stored procedures and triggers
-Stored procedures & triggers are prepared SQL codes that can be save and reused multiple times. Triggers are special procedures that automatically execute when an event occurs in the database server.
+Some main features of firebird are listed below-
+### Powerful and developer-friendly SQL language
+**Firebird supports stored procedures and triggers, and has comprehensive SQL92 support.**
+* High compatibility with ANSI SQL
+* Common Table Expressions (CTE)
+* Flexible transactions management
+* Full-blown stored procedures (selectable SP enables joins w/tables)
+* Cross-database queries
+* Active tables concept and events
+* User Defined Functions
+
+![Step](https://github.com/krishna1401/FireBird3.0.4/blob/master/features2.png)
+
+![Step](https://github.com/krishna1401/FireBird3.0.4/blob/master/features3.png)
 
 ### Full ACID compliant trasactions
 ACID are the set of properties of database transactions intended to guarantee validity even in the event of errors, power failure, etc. These properties are as follows:
