@@ -30,7 +30,18 @@ It is the property of data stating references within it are valid. Referential I
 ### Mutli Generation Architecture
 MGA (Multi Generational Architecture) is based on the concept of **readers don't block writers and writers don't block readers**. It creates mutiple version of records kept in database as long as any one transaction needs it. Each transaction has it's different view of the consistent database at any moment.It enables the development and support of hybrid OLTP and OLAP applications. This makes a Firebird database capable of serving simultaneously as both an analytical and an operational data store.
 
-![Step1](https://github.com/krishna1401/FireBird3.0.4/blob/master/features1.png)
+![Step](https://github.com/krishna1401/FireBird3.0.4/blob/master/features1.png)
+
+### Logging and monitoring
+**Firebird offers Trace API and rich set of monitoring tables (MON$)**
+* Real-time monitoring
+* SQL debugging
+* Audit
+  * Events 
+  * Partial or full logging
+  * Through remote connection
+  
+![Step](https://github.com/krishna1401/FireBird3.0.4/blob/master/features4.png)
 
 ### Support for External Functions
 User Defined Functions in SQL Server is a programming construct that accepts parameters, performs task on accepted parameters, and returns a type of result.
