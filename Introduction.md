@@ -16,8 +16,8 @@ ACID are the set of properties of database transactions intended to guarantee va
 ### Referential Integrity
 It is the property of data stating references within it are valid. Referential Integrity Rule states that any column in the base table declared as foreign key can contain either a **null value** or only values from a parent's table **primary key or candidate key**.
 
-### Mutli Generational Architecture
-MGA (Multi Generational Architecture) is based on the concept of **readers don't block writers and writers don't block readers**. It creates mutiple version of records kept in database as long as any one transaction needs it. Each transaction has it's different view of the consistent database at any moment.
+### Mutli Generation Architecture
+MGA (Multi Generational Architecture) is based on the concept of **readers don't block writers and writers don't block readers**. It creates mutiple version of records kept in database as long as any one transaction needs it. Each transaction has it's different view of the consistent database at any moment.It enables the development and support of hybrid OLTP and OLAP applications. This makes a Firebird database capable of serving simultaneously as both an analytical and an operational data store.
 
 ### Support for External Functions
 User Defined Functions in SQL Server is a programming construct that accepts parameters, performs task on accepted parameters, and returns a type of result.
