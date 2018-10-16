@@ -23,9 +23,13 @@ We now have a database, but its not good to have all database under SYSDBA accou
 <br >We will now test our database with the new user *testadmin*. Login isql prompt with *testadmin* user.<br >
 
 > isql firstdb.fdb -user TestAdmin -password testadmin -role firstdbadmin
+<br >
 > DELETE FROM sales_catalog;
+<br >
 > INSERT INTO sales_catalog VALUES('001', 'Aluminum Wok', 'Chinese wok');
+<br >
 > INSERT INTO sales_catalog VALUES('002', 'Microwave Oven', '300W Microwave oven');
+<br >
 > SELECT * FROM sales_catalog;
 
 <br >![Step 3](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/UR3.PNG)
@@ -33,14 +37,19 @@ We now have a database, but its not good to have all database under SYSDBA accou
 <br > To test the Role play of user we will create a new table *test_role* with **SYSDBA** and will try to access it using **testadmin**.<br >
 **Create table using SYSDBA** <br > 
 > isql firstdb.fdb -user SYSDBA -password newpass <br>
+<br >
 > CREATE TABLE test_role(item varchar(10) primary key not null);
+<br >
 > INSERT INTO test_role VALUES('101');
+<br >
 > INSERT INTO test_role VALUES('10');
+<br >
 > SELECT * FROM test_role;
 > quit;
 
 <br>**Access table using testadmin**<br >
->isql firstdb.fdb -user TestAdmin -password testadmin
+> isql firstdb.fdb -user TestAdmin -password testadmin
+<br >
 > SELECT * FROM test_role
 
 <br >![Step 4](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/UR4.PNG) 
