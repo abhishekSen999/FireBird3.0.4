@@ -46,7 +46,7 @@ We now have a database, but its not good to have all database under SYSDBA accou
 
 <br > To test the Role play of user we will create a new table *test_role* with **SYSDBA** and will try to access it using **testadmin**.<br >
 **Create table using SYSDBA** <br > 
-> isql firstdb.fdb -user SYSDBA -password newpass <br>
+> isql firstdb.fdb -user SYSDBA -password newpass
 <br >
 
 > CREATE TABLE test_role(item varchar(10) primary key not null);

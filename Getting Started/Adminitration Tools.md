@@ -26,8 +26,10 @@ Firebird comes with an example **EMPLOYEE** database, and we will use this datab
 
 <br >This will open an isql prompt with EMPLOYEE database. We will try few more simple SQL queries to try the SQL command prompt.__
 > SELECT emp_no, full_name, job_code, job_country FROM employee;
-![Step 3](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/A3.png)
+
+<br >![Step 3](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/A3.png)
 > show tables;
-![Step 4](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/A4.png)
+
+<br >![Step 4](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/A4.png)
 
 **Note**: To exit the sql prompt, simply type **quit;** and press **ENTER**
