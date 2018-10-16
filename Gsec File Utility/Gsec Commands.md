@@ -3,12 +3,12 @@ Here, we will discuss the various commands in gsec prompt. These are: <br />
 > -add <name> [ <parameter> ... ]
 
 <br > This command is used to add new user to the gsec security database. You can optionally add more parameters like first, middle and last names (also the password for the new user)
-<br >![Step 1]()
+<br >![Step 1](https://github.com/krishna1401/FireBird3.0.4/blob/master/Gsec%20File%20Utility/GC1.PNG)
 
 > -delete <name>
 
 <br > This command removes the named user from the database. All details of the users are removed from the security database and cannot be undone unless added as new user.
-<br >![Step 2]()
+<br >![Step 2](https://github.com/krishna1401/FireBird3.0.4/blob/master/Gsec%20File%20Utility/GC2.PNG)
 
 > -modify <name> <parameter> [ <parameter> ... ]
 
@@ -18,8 +18,8 @@ Here, we will discuss the various commands in gsec prompt. These are: <br />
 ## Parameters
 
 1. **-pw <password>**: This parameter is used to specify the new password for the user. If the password is omitted, the current user will be unable to login to any FireBird databases at all. 
-<br >![Step 3]()
-<br >![Step 4]()
+<br >![Step 3](https://github.com/krishna1401/FireBird3.0.4/blob/master/Gsec%20File%20Utility/GC3.PNG)
+<br >![Step 4](https://github.com/krishna1401/FireBird3.0.4/blob/master/Gsec%20File%20Utility/GC4.PNG)
 
 2. **-fname [ <first name> ]**: This parameter allows you to store the first name of the user in the database. You can delete the first name by not supplying a name.
 
@@ -29,4 +29,4 @@ Here, we will discuss the various commands in gsec prompt. These are: <br />
 
 5. **-admin yes | no**: This parameter alloes to specify whether or not the user show be granted **RDB$ADMIN** role i.e. it acts as a SYSDBA user with all permission similar as SYSDBA.
 
-![Step 5]()
+![Step 5](https://github.com/krishna1401/FireBird3.0.4/blob/master/Gsec%20File%20Utility/GC5.PNG)
