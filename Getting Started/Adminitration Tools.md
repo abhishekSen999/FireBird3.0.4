@@ -13,8 +13,7 @@ You first need to run gsec as SYSDBA to access, modify, add or delete the user i
 
 It's better to change the password for SYSDBA as its the global password. To change it, we modify SYSDBA account using the following command:<br >
 > modify SYSDBA -pass newpass
-
-<br >![Step 2](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/A2.png)
+![Step 2](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/A2.png)
 
 <br >**Note**: First 8 characters of the password are validated as password i.e. password123 = password234 (as first 8 character *password* is same in both the case)
 
@@ -26,10 +25,8 @@ Firebird comes with an example **EMPLOYEE** database, and we will use this datab
 
 <br >This will open an isql prompt with EMPLOYEE database. We will try few more simple SQL queries to try the SQL command prompt.
 > SELECT emp_no, full_name, job_code, job_country FROM employee;
-
-<br >![Step 3](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/A3.PNG)
+![Step 3](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/A3.PNG)
 > show tables;
-
-<br >![Step 4](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/A4.PNG)
+![Step 4](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/A4.PNG)
 
 **Note**: To exit the sql prompt, simply type **quit;** and press **ENTER**
