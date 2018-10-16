@@ -24,4 +24,4 @@ We will discuss the basic options available in gsec command line. These are:
 
 <br > Displays all the possible options for gsec on the screen.
 
-![Step 1]()
+![Step 1](https://github.com/krishna1401/FireBird3.0.4/blob/master/Gsec%20File%20Utility/CLO1.PNG)
