@@ -2,9 +2,20 @@
 > Firebird is an open source SQL relational database management system that "runs on **Linux, Microsoft Windows, MacOSX, and several Unix platforms.**"
 
 ## Features
-Some main features of firebird are listed below:
-### Full support for stored procedures and triggers
-Stored procedures & triggers are prepared SQL codes that can be save and reused multiple times. Triggers are special procedures that automatically execute when an event occurs in the database server.
+Some main features of firebird are listed below-
+### Powerful and developer-friendly SQL language
+**Firebird supports stored procedures and triggers, and has comprehensive SQL92 support.**
+* High compatibility with ANSI SQL
+* Common Table Expressions (CTE)
+* Flexible transactions management
+* Full-blown stored procedures (selectable SP enables joins w/tables)
+* Cross-database queries
+* Active tables concept and events
+* User Defined Functions
+
+![Step](https://github.com/krishna1401/FireBird3.0.4/blob/master/features2.png)
+
+![Step](https://github.com/krishna1401/FireBird3.0.4/blob/master/features3.png)
 
 ### Full ACID compliant trasactions
 ACID are the set of properties of database transactions intended to guarantee validity even in the event of errors, power failure, etc. These properties are as follows:
@@ -16,11 +27,36 @@ ACID are the set of properties of database transactions intended to guarantee va
 ### Referential Integrity
 It is the property of data stating references within it are valid. Referential Integrity Rule states that any column in the base table declared as foreign key can contain either a **null value** or only values from a parent's table **primary key or candidate key**.
 
-### Mutli Generational Architecture
-MGA (Multi Generational Architecture) is based on the concept of **readers don't block writers and writers don't block readers**. It creates mutiple version of records kept in database as long as any one transaction needs it. Each transaction has it's different view of the consistent database at any moment.
+### Mutli Generation Architecture
+MGA (Multi Generational Architecture) is based on the concept of **readers don't block writers and writers don't block readers**. It creates mutiple version of records kept in database as long as any one transaction needs it. Each transaction has it's different view of the consistent database at any moment.It enables the development and support of hybrid OLTP and OLAP applications. This makes a Firebird database capable of serving simultaneously as both an analytical and an operational data store.
+
+![Step](https://github.com/krishna1401/FireBird3.0.4/blob/master/features1.png)
+
+### Logging and monitoring
+**Firebird offers Trace API and rich set of monitoring tables (MON$)**
+* Real-time monitoring
+* SQL debugging
+* Audit
+  * Events 
+  * Partial or full logging
+  * Through remote connection
+  
+![Step](https://github.com/krishna1401/FireBird3.0.4/blob/master/features4.png)
 
 ### Support for External Functions
 User Defined Functions in SQL Server is a programming construct that accepts parameters, performs task on accepted parameters, and returns a type of result.
+
+### Security
+**Standard security**
+* Users and roles
+* GRANT/REVOKE on main operations
+* Database owner concept
+
+**Windows Trusted Authentication**
+* Single-sign on for end-users
+* Integration with Windows domain/Active Directory security
+
+![Step](https://github.com/krishna1401/FireBird3.0.4/blob/master/features5.png)
 
 ### Incremental Backup
 It maintains successive copies of the data containing only the portion that has changed since the preceding backup copy. During the full recovery all the incremental backups and last full backup are needed until the point of restoration.
