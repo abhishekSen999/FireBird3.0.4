@@ -46,6 +46,17 @@ MGA (Multi Generational Architecture) is based on the concept of **readers don't
 ### Support for External Functions
 User Defined Functions in SQL Server is a programming construct that accepts parameters, performs task on accepted parameters, and returns a type of result.
 
+### Security
+**Standard security**
+* Users and roles
+* GRANT/REVOKE on main operations
+* Database owner concept
+**Windows Trusted Authentication**
+* Single-sign on for end-users
+* Integration with Windows domain/Active Directory security
+
+![Step](https://github.com/krishna1401/FireBird3.0.4/blob/master/features5.png)
+
 ### Incremental Backup
 It maintains successive copies of the data containing only the portion that has changed since the preceding backup copy. During the full recovery all the incremental backups and last full backup are needed until the point of restoration.
 
