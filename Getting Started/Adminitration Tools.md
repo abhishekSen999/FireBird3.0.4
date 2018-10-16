@@ -8,10 +8,10 @@ The administrative tools available with the software are:
 You first need to run gsec as SYSDBA to access, modify, add or delete the user informations. To invoke it, execute the following command in your terminal:
 > gsec -user SYSDBA -password masterkey
 To view the current user type **display** command in the GSEC prompt
-![Step 1]()
+![Step 1](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/Step%201.png)
 > It's better to change the password for SYSDBA as its the global password. To change it, we modify SYSDBA account using the following command:
 > modify SYSDBA -pass newpass
-![Step 2]()
+![Step 2](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/Step%202.png)
 **Note**: First 8 characters of the password are validated as password i.e. password123 = password234 (as first 8 character *password* is same in both the case)
 
 ## isql Interactive SQL Processor
@@ -21,8 +21,8 @@ Firebird comes with an example **EMPLOYEE** database, and we will use this datab
 > isql D:\Firebird_3_0\examples\empbuild\EMPLOYEE.FDB
 This will open an isql prompt with EMPLOYEE database. We will try few more simple SQL queries to try the SQL command prompt.
 > SELECT emp_no, full_name, job_code, job_country FROM employee;
-![Step 3]()
+![Step 3](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/Step%203.png)
 > show tables;
-![Step 4]()
+![Step 4](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/Step%204.png)
 
 *Note*: To exit the sql prompt, simply type **quit;** and press **ENTER**
