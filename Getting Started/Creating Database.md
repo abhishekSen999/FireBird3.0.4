@@ -11,14 +11,19 @@ We will first create our database using SYSDBA user in the Firebire directory it
 
 > CREATE TABLE sales_catalog (item_id varchar(10) not null primary key, item_name varchar(40) not null, item_desc varchar(50));
 <br >
+
 > INSERT INTO sales_catalog VALUES('001','Aluminium Wok', 'Chinese wok used for stir fry dishes');
 <br >
+
 > INSERT INTO sales_catalog VALUES('002', 'Chopsticks extra-long', '60-cm chopsticks');
 <br >
+
 > INSERT INTO sales_catalog VALUES('003', 'Claypot', 'Pot for stews');
 <br >
+
 > INSERT INTO sales_catalog VALUES('004', 'Charcoal Stove', 'For claypot dishes');
 <br >
+
 > SELECT * FROM sales_catalog;
 
 <br >![Step 1](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/CD1.PNG)
