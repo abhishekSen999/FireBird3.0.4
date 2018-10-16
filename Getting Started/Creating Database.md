@@ -15,7 +15,7 @@ We will first create our database using SYSDBA user in the Firebire directory it
 > INSERT INTO sales_catalog VALUES('003', 'Claypot', 'Pot for stews');
 > INSERT INTO sales_catalog VALUES('004', 'Charcoal Stove', 'For claypot dishes');
 > SELECT * FROM sales_catalog;
-![Step 1]()
+![Step 1](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/CD1.PNG)
 
 <br >*Note*: While opening isql prompt always specify the user to define the operations you need to perform i.e. default user cannot modify the tables in the database.
 
