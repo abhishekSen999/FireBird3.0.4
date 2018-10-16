@@ -32,22 +32,22 @@ We need to run the Firebird Management Service to use the isql and other command
 Run Command Line (as administrator) and move to the folder where you have installed FireBird.
 ### Step 4.2
 Use command **instreg install**
-![Step 10]()
+![Step 10](https://github.com/krishna1401/FireBird3.0.4/blob/master/Installation/Step%2010.png)
 > instreg install command is used to make all the necessary entries in the right places, and install everything required during service.
 ### Step 4.3
 Use command **instsvc install -auto -name firebird3**
-![Step 11]()
+![Step 11](https://github.com/krishna1401/FireBird3.0.4/blob/master/Installation/Step%2011.png)
 > instsvc install -auto -name firebird3 command is used to install the Firebird Management Service on your computer with the name **firebird3** and automatically pick the required variable names and information set by the above command
 
 ## Step 5
 We will now try to open a example database (EMPLOYEE) and run a simple query to validate our setup.
 ### Step 5.1 
 Use command **isql -user SYSDBA -pass masterkey 'D:\Firebird_3_0\examples\empbuild\EMPLOYEE.FDB'**
-![Step 12]()
+![Step 12](https://github.com/krishna1401/FireBird3.0.4/blob/master/Installation/Step%2012.png)
 > This command opens the sql command prompt with the defined user i.e. SYSDBA (in this case) and specified database.
 ### Step 5.2
 Use command **show tables;** to validate the sql command prompt
-![Step 13]()
+![Step 13](https://github.com/krishna1401/FireBird3.0.4/blob/master/Installation/Step%2013.png)
 ### Step 5.3
 Use command **quit;** to exit the sql command prompt
-![Step 14]()
+![Step 14](https://github.com/krishna1401/FireBird3.0.4/blob/master/Installation/Step%2014.png)
