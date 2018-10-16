@@ -13,7 +13,8 @@ You first need to run gsec as SYSDBA to access, modify, add or delete the user i
 
 It's better to change the password for SYSDBA as its the global password. To change it, we modify SYSDBA account using the following command:<br >
 > modify SYSDBA -pass newpass
-![Step 2](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/A2.png)
+
+<br >![Step 2](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/A2.png)
 
 <br >**Note**: First 8 characters of the password are validated as password i.e. password123 = password234 (as first 8 character *password* is same in both the case)
 
