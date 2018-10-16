@@ -24,12 +24,12 @@ Isql is analogous to *psql* for *PostgreSQL* and *SQL\*Plus* for *Oracle*. You c
 Firebird comes with an example **EMPLOYEE** database, and we will use this database to test our SQL commands. To begin, execute the following command:<br >
 > isql D:\Firebird_3_0\examples\empbuild\EMPLOYEE.FDB
 
-<br >This will open an isql prompt with EMPLOYEE database. We will try few more simple SQL queries to try the SQL command prompt.__
+<br >This will open an isql prompt with EMPLOYEE database. We will try few more simple SQL queries to try the SQL command prompt.
 > SELECT emp_no, full_name, job_code, job_country FROM employee;
 
-<br >![Step 3](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/A3.png)
+<br >![Step 3](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/A3.PNG)
 > show tables;
 
-<br >![Step 4](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/A4.png)
+<br >![Step 4](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/A4.PNG)
 
 **Note**: To exit the sql prompt, simply type **quit;** and press **ENTER**
