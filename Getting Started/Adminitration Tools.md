@@ -30,4 +30,4 @@ Firebird comes with an example **EMPLOYEE** database, and we will use this datab
 > show tables;
 ![Step 4](https://github.com/krishna1401/FireBird3.0.4/blob/master/Getting%20Started/A4.png)
 
-*Note*: To exit the sql prompt, simply type **quit;** and press **ENTER**
+**Note**: To exit the sql prompt, simply type **quit;** and press **ENTER**
