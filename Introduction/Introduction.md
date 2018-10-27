@@ -13,9 +13,9 @@ Some main features of firebird are listed below-
 * Active tables concept and events
 * User Defined Functions
 
-![Step](https://github.com/krishna1401/FireBird3.0.4/blob/master/features2.png)
+![Step](https://github.com/krishna1401/FireBird3.0.4/blob/master/Introduction/features2.png)
 
-![Step](https://github.com/krishna1401/FireBird3.0.4/blob/master/features3.png)
+![Step](https://github.com/krishna1401/FireBird3.0.4/blob/master/Introduction/features3.png)
 
 ### Full ACID compliant trasactions
 ACID are the set of properties of database transactions intended to guarantee validity even in the event of errors, power failure, etc. These properties are as follows:
@@ -30,7 +30,7 @@ It is the property of data stating references within it are valid. Referential I
 ### Mutli Generation Architecture
 MGA (Multi Generational Architecture) is based on the concept of **readers don't block writers and writers don't block readers**. It creates mutiple version of records kept in database as long as any one transaction needs it. Each transaction has it's different view of the consistent database at any moment.It enables the development and support of hybrid OLTP and OLAP applications. This makes a Firebird database capable of serving simultaneously as both an analytical and an operational data store.
 
-![Step](https://github.com/krishna1401/FireBird3.0.4/blob/master/features1.png)
+![Step](https://github.com/krishna1401/FireBird3.0.4/blob/master/Introduction/features1.png)
 
 ### Logging and monitoring
 **Firebird offers Trace API and rich set of monitoring tables (MON$)**
@@ -41,7 +41,7 @@ MGA (Multi Generational Architecture) is based on the concept of **readers don't
   * Partial or full logging
   * Through remote connection
   
-![Step](https://github.com/krishna1401/FireBird3.0.4/blob/master/features4.png)
+![](https://github.com/krishna1401/FireBird3.0.4/blob/master/Introduction/features4.png)
 
 ### Support for External Functions
 User Defined Functions in SQL Server is a programming construct that accepts parameters, performs task on accepted parameters, and returns a type of result.
@@ -56,7 +56,7 @@ User Defined Functions in SQL Server is a programming construct that accepts par
 * Single-sign on for end-users
 * Integration with Windows domain/Active Directory security
 
-![Step](https://github.com/krishna1401/FireBird3.0.4/blob/master/features5.png)
+![Step](https://github.com/krishna1401/FireBird3.0.4/blob/master/Introduction/features5.png)
 
 ### Incremental Backup
 It maintains successive copies of the data containing only the portion that has changed since the preceding backup copy. During the full recovery all the incremental backups and last full backup are needed until the point of restoration.
