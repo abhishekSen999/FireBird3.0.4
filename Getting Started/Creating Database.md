@@ -2,7 +2,7 @@ Now, we are going to create our own database and perform simple SQL insert query
 <br >To create our database, we will need to use the isql tool. Firebird saves its databases under discrete files, and, by convention, the extension is **.fdb**. 
 <br >**Note**: .fdb extension is just a convention, and that you can save the database as any extension you wish.
 
-We will first create our database using SYSDBA user in the Firebire directory itself. We will run the isql tool and execute the **CREATE DATABASE** command as follows:<br >
+We will first create our database using SYSDBA user in the Firebird directory itself. We will run the isql tool and execute the **CREATE DATABASE** command as follows:<br >
 > CREATE DATABASE 'firstdb.fdb' USER 'sysdba' PASSWORD 'newpass';
 
 <br >This will create a file called **firstdb.fdb** inside the current directory. The databse is owned by SYSDBA. We will create a simple Sales catalog table and fill it with some data.
