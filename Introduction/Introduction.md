@@ -51,8 +51,6 @@ User Defined Functions in SQL Server is a programming construct that accepts par
 ### Incremental Backup
 It maintains successive copies of the data containing only the portion that has changed since the preceding backup copy. During the full recovery all the incremental backups and last full backup are needed until the point of restoration.
 
-> Note: Differenct between UDF & Procedure (https://stackoverflow.com/questions/2039936/difference-between-stored-procedures-and-user-defined-functions)
-
 ## Awards
 1. **2007** SourceForge Community Choice Award: Best Project for enterprise, Best user support.
 2. **2009** SourceForge Community Choice Award: Best Project for enterprise. Finalist on Best Project and Best Project for Government.
