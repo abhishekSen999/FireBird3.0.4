@@ -22,6 +22,13 @@ MGA (Multi Generational Architecture) is based on the concept of **readers don't
 
 ![Step](https://github.com/krishna1401/FireBird3.0.4/blob/master/Introduction/features1.png)
 
+### WITH Lock
+       SELECT ... FROM single_table
+       [WHERE ...]
+       [FOR UPDATE [OF ...]]
+       [WITH LOCK]
+If the WITH LOCK clause succeeds, it will secure a lock on the selected rows and prevent any other transaction from obtaining write access to any of those rows, or their dependants, until your transaction ends.
+
 ### Logging and monitoring
 **Firebird offers Trace API and rich set of monitoring tables (MON$)**
 * Real-time monitoring
