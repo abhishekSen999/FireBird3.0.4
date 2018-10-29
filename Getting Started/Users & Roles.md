@@ -57,6 +57,7 @@ We now have a database, but its not good to have all database under SYSDBA accou
 
 > INSERT INTO test_role VALUES('10');
 <br >
+
 > SELECT * FROM test_role;
 <br >
 
